@@ -6,51 +6,51 @@ import java.util.List;
 
 public class Values {
     @SerializedName("Id")
-    public int id;
+    private int id;
     @SerializedName("Guid")
-    public String guid;
+    private String guid;
     @SerializedName("Username")
-    public String username;
+    private String username;
     @SerializedName("Name")
-    public String name;
+    private String name;
     @SerializedName("Surname")
-    public String surname;
+    private String surname;
     @SerializedName("FullName")
-    public String fullName;
+    private String fullName;
     @SerializedName("EmployeeId")
-    public int employeeId;
+    private int employeeId;
     @SerializedName("RegisterId")
-    public int registerId;
+    private int registerId;
     @SerializedName("RegisterName")
-    public Object registerName;
+    private Object registerName;
     @SerializedName("RegisterSurname")
-    public Object registerSurname;
+    private Object registerSurname;
     @SerializedName("RegisterCode")
-    public Object registerCode;
+    private Object registerCode;
     @SerializedName("CommandList")
-    public List<Object> commandList;
+    private List<Object> commandList;
     @SerializedName("UserGroupList")
-    public List<Object> userGroupList;
+    private List<Object> userGroupList;
     @SerializedName("LicenceKey")
-    public Object licenceKey;
+    private Object licenceKey;
     @SerializedName("CoId")
-    public int coId;
+    private int coId;
     @SerializedName("CoCode")
-    public String coCode;
+    private String coCode;
     @SerializedName("CoDesc")
-    public String coDesc;
+    private String coDesc;
     @SerializedName("BranchId")
-    public int branchId;
+    private int branchId;
     @SerializedName("BranchCode")
-    public String branchCode;
+    private String branchCode;
     @SerializedName("BranchDesc")
-    public String branchDesc;
+    private String branchDesc;
     @SerializedName("UserGuid")
-    public Object userGuid;
+    private Object userGuid;
     @SerializedName("UserProfileId")
-    public int userProfileId;
+    private int userProfileId;
     @SerializedName("IsAdmin")
-    public boolean isAdmin;
+    private boolean isAdmin;
 
     public int getId() {
         return id;

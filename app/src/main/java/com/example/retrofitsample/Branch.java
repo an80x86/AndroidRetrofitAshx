@@ -2,14 +2,15 @@ package com.example.retrofitsample;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Token {
+import java.util.List;
+
+public class Branch {
     @SerializedName("Success")
     private boolean success;
     @SerializedName("Message")
     private String message;
-
     @SerializedName("Values")
-    private Values values;
+    private List<Value> values;
 
     public boolean isSuccess() {
         return success;
@@ -27,11 +28,11 @@ public class Token {
         this.message = message;
     }
 
-    public Values getValues() {
+    public List<Value> getValues() {
         return values;
     }
 
-    public void setValues(Values values) {
+    public void setValues(List<Value> values) {
         this.values = values;
     }
 }
